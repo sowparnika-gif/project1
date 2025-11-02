@@ -1,0 +1,177 @@
+
+section.scroll{
+    overflow: hidden;
+}
+.one{
+    background-color:white;
+    line-height: 1;      
+}
+.two{
+    background-color: rgb(41, 202, 202);
+  padding-top: 100px ;
+}
+
+.box3{
+    padding-top: 100px;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+.box2{
+    text-align: right;
+    
+}
+/* .picture{
+    width: 338px;
+    float: right;
+} */
+.line{
+    background-color: white;
+    height: 3px;
+    width: 50%;
+}
+.link{
+    color: brown;
+}
+.box4{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+.line1{
+    height: 3px;
+    width: 30%;
+    background-color: black;
+    margin: auto;
+}
+.link2{
+    color: brown;
+    padding: 5px;
+    border-style:solid;
+    text-decoration: none;
+    
+}
+.Four{
+    background-color:rgb(41, 202, 202);
+}
+.line2{
+    background-color: white;
+    height: 3px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+.box5{
+    color: white;
+    text-align: center;
+}
+.Five{
+    background-color: rgb(41, 35, 35);
+    color: white;
+}
+.line3{
+    background-color:rgb(228, 223, 223);
+    height: 3px;
+    width: 20%;
+    margin: auto;
+}
+.Five{
+    text-align: center;
+}
+.box7{
+    /* background-color: blueviolet; */
+    height: 200px;
+    margin: 20px 0;
+}
+.box8{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.Ten{
+    /* background-color:rgb(212, 115, 115); */
+    height:100%;
+    width:100%;
+}
+.Eight{
+     background-color: rgb(41, 35, 35);
+}
+.book{
+    color: brown;
+}
+.Ten{
+    text-align: center;
+    justify-content: center;
+}
+.Eleven h6{
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-size: 10px;
+   
+}
+.Twelve{
+    text-align: center;
+    font-size: 10px;
+}
+.Seven{
+    text-align: center;
+    margin-top: 30px;
+}
+.img1{
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px; 
+    margin: auto;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: auto;
+    border-top: 40px solid rgb(41, 202, 202);
+}
+.img2{ 
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin: auto;
+}
+.img3{
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+     margin: auto;
+}
+.Four{
+    justify-content: center;
+    padding: 50px 0;
+}
+.mypic{
+   width: 100%;
+}
+
+
+@media(max-width:768px){
+    .box2,.box3{
+        text-align: center;
+    }
+    .line{
+   margin: auto;
+}
+.mypic{
+    width: 200px;
+}
+}
